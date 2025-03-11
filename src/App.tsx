@@ -99,14 +99,14 @@ export default function App() {
   return (
     <>
       <Stack direction="column" spacing={2}>
-        <Typography level="h1">Weird Word Generator</Typography>
+        <Typography level="h1">Lexomancia</Typography>
         <Typography level="h3">
           Create new, playful words from your list of favorites.
         </Typography>
       </Stack>
       <Stack direction="row" spacing={4} sx={{ py: 4 }}>
         <Typography level="body-md" sx={{ textAlign: "justify" }}>
-          <Typography color="primary">Weird Word Weaver</Typography> is a simple
+          <Typography color="primary">Lexomancia</Typography> is a simple
           yet engaging app designed for those who enjoy wordplay and creative
           writing. With its straightforward interface, the app turns a list of
           words into a source of inspiration, generating new and interesting
@@ -116,7 +116,7 @@ export default function App() {
         </Typography>
         <Typography level="body-md" sx={{ textAlign: "justify" }}>
           The magic of{" "}
-          <Typography color="primary">Weird Word Weaver</Typography> lies in its
+          <Typography color="primary">Lexomancia</Typography> lies in its
           use of Markov chains, where the
           <Typography color="success" variant="soft">
             order
@@ -130,7 +130,7 @@ export default function App() {
           app analyzes the last two letters and uses the patterns in your input
           words to decide the subsequent letter. This balance of randomness and
           pattern-based structure makes{" "}
-          <Typography color="primary">Weird Word Weaver</Typography> a
+          <Typography color="primary">Lexomancia</Typography> a
           fascinating tool for those interested in the playful side of language.
         </Typography>
       </Stack>
