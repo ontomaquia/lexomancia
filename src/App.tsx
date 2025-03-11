@@ -42,11 +42,9 @@ export default function App() {
   async function loadDefaultLanguages(): Promise<void> {
     try {
       const english = await importLanguage("english");
-      const svieta = await importLanguage("svieta");
       const french_pokemon = await importLanguage("french_pokemon");
       const langs = {
         English: english,
-        Svieta: svieta,
         "French Pokémon": french_pokemon,
         Custom: [],
       };
@@ -217,7 +215,7 @@ export default function App() {
               <FormControl>
                 <Tooltip
                   placement="top"
-                  title="Choose your word list: select 'English' for a diverse set of 10,000 words, 'Svieta’s List' for a specially specially curated collection, 'French Pokémon' for 1025 pokémon names in French, or 'Custom' to use your own list."
+                  title="Choose your word list: select 'English' for a diverse set of 10,000 words, 'French Pokémon' for 1025 pokémon names in French, or 'Custom' to use your own list."
                   color="primary"
                 >
                   <FormLabel>Language Selection</FormLabel>
